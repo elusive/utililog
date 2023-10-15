@@ -1,0 +1,38 @@
+{
+  "name": "utililog",
+  "version": "1.0.0",
+  "description": "Interactive demo application for Utililog (c) Software.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/elusive/utililog.git"
+  },
+  "keywords": [
+    "industrial",
+    "safety",
+    "logistics"
+  ],
+  "author": "John C. Gilliland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elusive/utililog/issues"
+  },
+  "homepage": "https://github.com/elusive/utililog#readme",
+  "dependencies": {
+    "@arrow-js/core": "^1.0.0-alpha.9",
+    "postcss": "^8.4.31",
+    "vite": "^4.4.11"
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
