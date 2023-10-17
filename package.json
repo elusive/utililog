@@ -1,22 +1,15 @@
 {
   "name": "utililog",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Interactive demo application for Utililog (c) Software.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/elusive/utililog.git"
-  },
-  "keywords": [
-    "industrial",
-    "safety",
-    "logistics"
-  ],
+  "type": "module",
   "author": "John C. Gilliland",
   "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "bugs": {
     "url": "https://github.com/elusive/utililog/issues"
   },
@@ -24,6 +17,7 @@
   "dependencies": {
     "@arrow-js/core": "^1.0.0-alpha.9",
     "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
     "vite": "^4.4.11"
   },
   "devDependencies": {
