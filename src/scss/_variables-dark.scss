@@ -101,7 +101,7 @@ $yellow:     #ffa91c;
 $green:      #32c861;
 $teal:       #64c5b1;
 $cyan:       #34d3eb;
-
+$utililogblue: #2191fd;
 
 $colors: ();
 $colors: map-merge((
@@ -120,7 +120,7 @@ $colors: map-merge((
   "gray-dark":  $gray-800
 ), $colors);
 
-$primary:       $teal;
+$primary:       $utililogblue;
 $secondary:     $gray-300;
 $success:       $green;
 $info:          $cyan;

@@ -35,14 +35,14 @@ $menu-item-active-color-dark: #ffffff;
 $menu-item:              #95a4b5;
 $menu-item-hover:        #ffffff;
 $menu-item-active:       #ffffff;
-$menu-sub-item-active:   #64c5b1;
+$menu-sub-item-active:   #2191fd;
 
 //Rightbar Width
 $rightbar-width:           260px;
 
 //Topbar Background
 $bg-topbar-light:         #ffffff;
-$bg-topbar-dark:          #64c5b1;
+$bg-topbar-dark:          #2191fd;
 
 // Topbar Height
 $topbar-height: 70px;
@@ -100,7 +100,7 @@ $yellow:     #ffa91c;
 $green:      #32c861;
 $teal:       #64c5b1;
 $cyan:       #34d3eb;
-
+$utililogblue: #2191fd;
 
 $colors: ();
 $colors: map-merge((
@@ -119,7 +119,7 @@ $colors: map-merge((
   "gray-dark":  $gray-800
 ), $colors);
 
-$primary:       $teal;
+$primary:       $utililogblue;
 $secondary:     $gray-700;
 $success:       $green;
 $info:          $cyan;
