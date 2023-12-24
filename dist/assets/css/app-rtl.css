@@ -1314,8 +1314,8 @@ Responsive Menu
   border-color: #fff; }
 
 .checkbox-purple input[type="checkbox"]:checked + label::before {
-  background-color: #5553ce;
-  border-color: #5553ce; }
+  background-color: #5c6bc0;
+  border-color: #5c6bc0; }
 
 .checkbox-purple input[type="checkbox"]:checked + label::after {
   border-color: #fff; }
@@ -1478,13 +1478,13 @@ Responsive Menu
   background-color: #F06292; }
 
 .radio-purple input[type="radio"] + label::after {
-  background-color: #5553ce; }
+  background-color: #5c6bc0; }
 
 .radio-purple input[type="radio"]:checked + label::before {
-  border-color: #5553ce; }
+  border-color: #5c6bc0; }
 
 .radio-purple input[type="radio"]:checked + label::after {
-  background-color: #5553ce; }
+  background-color: #5c6bc0; }
 
 @media print {
   .left-side-menu,
@@ -1877,9 +1877,9 @@ Responsive Menu
   border-color: #F06292; }
 
 .jq-icon-purple {
-  background-color: #5553ce;
+  background-color: #5c6bc0;
   color: #fff;
-  border-color: #5553ce; }
+  border-color: #5c6bc0; }
 
 .jq-icon-error {
   background-color: #f96a74;
@@ -3775,9 +3775,9 @@ body.authentication-bg.enlarged {
     .ribbon-box .ribbon-pink:before {
       border-color: #ec3372 transparent transparent; }
   .ribbon-box .ribbon-purple {
-    background: #5553ce; }
+    background: #5c6bc0; }
     .ribbon-box .ribbon-purple:before {
-      border-color: #3735b9 transparent transparent; }
+      border-color: #4150a8 transparent transparent; }
   .ribbon-box .ribbon-two {
     position: absolute;
     left: -5px;
@@ -3899,13 +3899,13 @@ body.authentication-bg.enlarged {
       border-right: 3px solid #e91c62;
       border-top: 3px solid #e91c62; }
   .ribbon-box .ribbon-two-purple span {
-    background: #5553ce; }
+    background: #5c6bc0; }
     .ribbon-box .ribbon-two-purple span:before {
-      border-left: 3px solid #312fa5;
-      border-top: 3px solid #312fa5; }
+      border-left: 3px solid #3a4896;
+      border-top: 3px solid #3a4896; }
     .ribbon-box .ribbon-two-purple span:after {
-      border-right: 3px solid #312fa5;
-      border-top: 3px solid #312fa5; }
+      border-right: 3px solid #3a4896;
+      border-top: 3px solid #3a4896; }
 
 .home-btn {
   position: absolute;
@@ -6342,10 +6342,10 @@ a.text-pink:hover, a.text-pink:focus {
   color: #e91c62 !important; }
 
 .text-purple {
-  color: #5553ce !important; }
+  color: #5c6bc0 !important; }
 
 a.text-purple:hover, a.text-purple:focus {
-  color: #312fa5 !important; }
+  color: #3a4896 !important; }
 
 .text-body {
   color: #6c757d !important; }

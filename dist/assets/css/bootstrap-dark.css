@@ -9046,6 +9046,10 @@ a.text-purple:hover, a.text-purple:focus {
   border-radius: .15rem; }
 
 /* Social Buttons */
+.btn-teams {
+  color: #fff !important;
+  background-color: #5C6BC0; }
+
 .btn-facebook {
   color: #fff !important;
   background-color: #3b5998; }

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Teams User Summary</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Summary for MS Teams messaging for the current user" name="description" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-stylesheet" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css"  id="app-stylesheet" />
+
+    </head>
+
+    <body>
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            @@include('./partials/topbar.html')
+
+            @@include('./partials/left-sidebar.html')
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+                    
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+                        
+
+                        <div class="row">
+                        <div class="col-xl-6">
+                            <br />
+                                <div class="card-box ribbon-box">
+                                    <div class="ribbon ribbon-purple">Microsoft Teams</div>
+                                    <div style="float:right;">
+                                        <img src="assets/images/teams.png" height="80" width="80" alt="Microsoft Teams" />
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="inbox-widget">
+                                        <div class="inbox-item">
+                                            <div class="inbox-item-img"><img src="assets/images/users/avatar-2.jpg" class="rounded-circle" alt=""></div>
+                                            <p class="inbox-item-author">Tomaslau</p>
+                                            <p class="inbox-item-date mt-2">
+                                                <button type="button" class="btn btn-icon btn-xs waves-effect waves-light btn-teams"> Chat </button>
+                                                <button type="button" class="btn btn-icon btn-xs waves-effect waves-light btn-teams"> Meeting </button>
+                                            </p>
+                                        </div>
+                                        <div class="inbox-item">
+                                            <div class="inbox-item-img"><img src="assets/images/users/avatar-3.jpg" class="rounded-circle" alt=""></div>
+                                            <p class="inbox-item-author">Stillnotdavid</p>
+                                            <p class="inbox-item-date mt-2">
+                                                <button type="button" class="btn btn-icon btn-xs waves-effect waves-light btn-teams"> Chat </button>
+                                                <button type="button" class="btn btn-icon btn-xs waves-effect waves-light btn-teams"> Meeting </button>
+                                            </p>
+                                        </div>
+                                        <div class="inbox-item">
+                                            <div class="inbox-item-img"><img src="assets/images/users/avatar-4.jpg" class="rounded-circle" alt=""></div>
+                                            <p class="inbox-item-author">Kurafire</p>
+                                            <p class="inbox-item-date mt-2">
+                                                <button type="button" class="btn btn-icon btn-xs waves-effect waves-light btn-teams"> Chat </button>
+                                                <button type="button" class="btn btn-icon btn-xs waves-effect waves-light btn-teams"> Meeting </button>
+                                            </p>
+                                        </div>
+                                        <div class="inbox-item">
+                                            <div class="inbox-item-img"><img src="assets/images/users/avatar-5.jpg" class="rounded-circle" alt=""></div>
+                                            <p class="inbox-item-author">Shahedk</p>
+                                            <p class="inbox-item-date mt-2">
+                                                <button type="button" class="btn btn-icon btn-xs waves-effect waves-light btn-teams"> Chat </button>
+                                                <button type="button" class="btn btn-icon btn-xs waves-effect waves-light btn-teams"> Meeting </button>
+                                            </p>
+                                        </div>
+                                        <div class="inbox-item">
+                                            <div class="inbox-item-img"><img src="assets/images/users/avatar-6.jpg" class="rounded-circle" alt=""></div>
+                                            <p class="inbox-item-author">Adhamdannaway</p>
+                                            <p class="inbox-item-date mt-2">
+                                                <button type="button" class="btn btn-icon btn-xs waves-effect waves-light btn-teams"> Chat </button>
+                                                <button type="button" class="btn btn-icon btn-xs waves-effect waves-light btn-teams"> Meeting </button>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                            </div>
+        
+        
+       
+                        </div>
+                        <!-- end row -->
+
+                        
+                    </div> <!-- end container-fluid -->
+
+                </div> <!-- end content -->
+
+                @@include('./partials/footer.html')
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+        </div>
+        <!-- END wrapper -->
+
+        <!-- Vendor js -->
+        <script src="assets/js/vendor.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+        
+    </body>
+</html>
