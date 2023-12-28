@@ -1,24 +1,19 @@
 
-# Adminox - The most complete web ui kit and dashboard template
+# Utililog - The most concise and well thought operator's dashboard available. 
 
-Thank you for purchasing Adminox :). The following guideline will help you to get started with Adminox and its documentation.
+### Getting Started
+To view the demo application simply clone the repository and open the `dist/index.html` file in your browser.
 
-#### Docs
+#### Building the Application
+In order to rebuild the site after any changes are made to the src folder you will need to execute the gulp script included in the root of the repository.
 
-The `docs` directory contains all the static resources required for docs and examples. To view, just open in your favourite browser!
-```
-$ open docs/index.html
-```
+##### Prerequisites
+The following tools must be installed in order to execute the gulp build script:
 
-Once you open the documentation. Just click on `Setup` link from left, this would open up page (`docs/setup.html`) containing instructions to get started with setup. Optionally you can review below described quick setup guide.
-
-
-#### Gulp
-
-We've included Gulp file (gulpfile.js) to help you get started with theme and build automation. You'll need to install Node.js and Gulp before using our included gulpfile.js. Note that the detailed instructions are available in `docs/setup.html` too.
+1. Node JS v10.16.0  (this version is the newest version of Node that will work)
+2. Gulp JS (help can be found at [https://gulpjs.com/docs/en/getting-started/quick-start/])
 
 To install Node visit [https://nodejs.org/download](https://nodejs.org/download/).
-
 To install gulp, run the following command:
 ```
 $ npm install gulp -g
@@ -38,4 +33,4 @@ From here on out, simply run `gulp` from your terminal and you're good to go!
   
 #### Support
 
-If you experience any problems with the above instruction, or if you think you've found a bug with theme - please don't hesitate to reach out to support@coderthemes.com.
+If you experience any problems with the above instruction, or if you think you've found a bug with theme - please don't hesitate to reach out to johncgilliland@gmail.com.
